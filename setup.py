@@ -1,7 +1,8 @@
 from distutils.core import setup
+import setuptools
 setup(
   name = 'drunk-man',         # How you named your package folder (MyLib)
-  packages = ['drunk-name'],   # Chose the same as "name"
+  packages = setuptools.find_packages()   # Chose the same as "name"
   version = '6.9',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'This repo was made as a joke for our drunk friend. This repo is totally useless, just like our drunk friend.',   # Give a short description about your library
